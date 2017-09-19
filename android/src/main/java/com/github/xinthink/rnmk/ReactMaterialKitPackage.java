@@ -22,7 +22,8 @@ public class ReactMaterialKitPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // Depreciated RN 0.47
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
